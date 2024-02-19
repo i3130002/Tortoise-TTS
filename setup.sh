@@ -3,7 +3,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install transformers &&
 cd tortoise-tts && 
 python setup.py install &&
-mkdir tortoise/voices/i313002 &&
+mkdir -p tortoise/voices/i313002 &&
 cd tortoise/voices/i313002/ &&
 wget https://github.com/i3130002/Tortoise-TTS/raw/main/voice_sample.wav  -O 1.wav
 
